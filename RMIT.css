@@ -1,0 +1,522 @@
+#body {
+    background-color: #FAF4E4;
+}
+
+/* Heading of the page Start */
+    /* Header  */
+        .Head {
+            /* Box Model  */
+            padding: 0px 0px;
+            margin: -8px -8px;
+            /* Designing  */
+            background-color: #0B0B0B;
+        }
+
+    /* Logo image  */
+        .Head img {
+            /* Box Model */
+            padding: 9px 48px;
+            /* Designing */
+            width: 100px;
+            filter: invert(100%);
+        }
+
+    /* Login Button  */
+        .Head .sign{
+            /* Box model */
+            right: 80px;
+            top: 19px;
+            padding: 4px;
+            border: 3px solid black;
+            /* Designing */
+            color: white;
+            background-color: gray;
+            border-radius: 8px;
+            /* Properties */
+            position: absolute;
+
+        }
+        .Head .sign:hover {
+            /* Box model */
+            border: 3px solid blue;
+            /* Designing */
+            color: blue;
+            background-color: white;
+        }
+    /* Login image  */
+        .Head .sig{
+
+            width: 14px;
+            top: 17px;
+            right: 90px;
+
+            position: absolute;
+        }
+
+/* Heading of the page Close */
+
+
+/* Navigation Bar  */
+
+    /* Nav main */
+        .navbar {
+            padding: 22px 0px;
+            margin: 8px -8px;
+
+            background-color: #D3A121;
+        }
+
+        .navbar ul {
+            margin: 5px 0px;
+            padding: 0px 0px;
+            
+            list-style: none;
+        }
+
+        .navbar .l {
+            margin: 0px 0px;
+            padding: 0px 0px;
+
+            background-color: #D3A121;
+            border: 1px solid #D3A121;
+
+            display: inline-block;
+        }
+
+        .navbar .l li{
+            padding: 4px;
+
+            color: white;
+            border: 1px solid #D3A121;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: none;
+        }
+
+        .navbar #home li:hover {
+            padding: 8px 5px;
+
+            color: white;
+            background-color: red;
+            border: 1px solid red;
+            border-radius: 4px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: none;
+            box-shadow: 1px 1px 12px 1px gray;
+
+            transition: all 400ms ease-in 0ms;
+        }
+
+        .navbar #jobOffer li:hover {
+            padding: 8px 5px;
+
+            color: white;
+            background-color: rgb(90 90 255);
+            border: 1px solid rgb(90 90 255);
+            border-radius: 4px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: none;
+            box-shadow: 1px 1px 12px 1px gray;
+
+            transition: all 400ms ease-in 0ms;
+        }
+
+        .navbar #lone li:hover {
+            padding: 8px 5px;
+ 
+            color: white;
+            background-color: rgb(32, 159, 32);
+            border: 1px solid rgb(32, 159, 32);
+            border-radius: 4px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: none;
+            box-shadow: 1px 1px 12px 1px gray;
+
+            transition: all 400ms ease-in 0ms;
+        }
+
+        .navbar #aboutUs li:hover {
+            padding: 8px 5px;
+
+            color: white;
+            border: 1px solid rgb(215, 224, 59);
+            background-color: rgb(215, 224, 59);
+            border-radius: 4px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: none;
+            box-shadow: 1px 1px 12px 1px gray;
+
+            transition: all 400ms ease-in 0ms;
+        }
+
+        .navbar #contactUs li:hover {
+            padding: 8px 5px;
+
+            color: white;
+            background-color: gray;
+            border: 1px solid gray;
+            border-radius: 4px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: none;
+            box-shadow: 1px 1px 12px 1px gray;
+
+            transition: all 400ms ease-in 0ms;
+        }
+
+        ul #home {
+            left: 365px;
+            top: 73px;
+            position: absolute;
+        }
+
+        ul #jobOffer{
+            left: 438px;
+            top: 73px;
+            position: absolute;
+        }
+
+        ul #lone {
+            left: 546px;
+            top: 73px;
+            position: absolute;
+        }
+
+        ul #aboutUs {
+            left: 620px;
+            top: 73px;
+            position: absolute;
+        }
+
+        ul #contactUs {
+            left: 723px;
+            top: 73px;
+            position: absolute;
+        }
+
+        /* .l{
+            transition: all 1s ease-in-out 1s;
+        } */
+    /* Nav Main Close  */
+
+    /* Nav img  */
+        .navbar .facebook {
+            width: 37px;
+            height: 33px;
+
+            right: 5px;
+            top: 67px;
+            position: absolute;
+        }
+
+        .navbar .twitter {
+            height: 33px;
+            width: 37px;
+
+            right: 50px;
+            top: 67px;
+            position: absolute;
+        }
+
+        .navbar .insta {
+            width: 37px;
+            height: 33px;
+
+            right: 96px;
+            top: 67px;
+            position: absolute;
+        }
+    /* Nav Img Close  */
+
+/* Nav Bar close */
+
+/* Main Content of the web */
+    
+    /* Main  */
+        #main .con {
+            padding: 8px;
+            
+            left: 244px;
+            right: 312px;
+            
+            position: absolute;
+        }
+        .hed {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        
+        .pas {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+            font-style: italic;
+        }
+        /* scroll bar  */
+            ::-webkit-scrollbar {
+                width: 6px; /* width of the scrollbar */
+            }
+            
+            ::-webkit-scrollbar-thumb {
+                background: #888; /* color of the scrollbar handle */
+                border-radius: 6px; /* roundness of the scrollbar handle */
+            }
+        
+            ::-webkit-scrollbar-thumb:hover {
+                background: #128da0; /* color of the scrollbar handle on hover */
+                width: 12px;
+            }
+        /* scroll bar Close */
+    /* Main Close */
+    
+    /* Block 1  */
+        #random {
+            position: absolute;
+            right: 312px;
+            left: 244px;
+            top: auto;
+        
+            width: 484px;
+            height: 354px;
+        
+            border-radius: 8px;
+        }
+    /* Block 1 Close */
+
+    /* Block 2  */
+        #con2 {
+            display: none;           
+        }
+    /* BLock 2 Close */
+
+    /* Block 3 */
+        #con3 {
+            top: 720px;
+        }
+        #software {
+            width: 450px;
+            height: 300px;
+        
+            position: absolute;
+            left: 208px;
+        
+            border: 1px;
+            border-radius: 5px;
+        }
+    /* Block 3 Close */
+
+    /* Block 4  */
+        #con4{
+            display: none;
+        }
+        .x {
+            text-decoration: none;
+            /* list-style: none; */
+            color: black;
+            font-family: cursive;
+
+        }
+        #con4 ul .x:hover {
+            text-decoration: underline;
+            color: red;
+            list-style: circle;
+        }
+        .resume {
+            width: 300px;
+            height: 300px;
+        
+            position: relative;
+            left: 303px;
+        }
+    /* Block 4 Close */
+
+    /* Block 5 */
+        #con5{
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            position: absolute; 
+            top: 275px;
+            left: 350px;
+        
+            background-color: #534949;
+            border: 1px solid #534949;
+        
+            padding: 4px;
+        }
+        
+        input~span {
+            transition: top .7s cubic-bezier(0, 0.84, 0.44, 1.11);
+            position: absolute;
+            top: 275px;
+            left: 350px;
+            color: aliceblue;
+            padding: 4px;
+        }
+        
+        input:focus~span {
+            top: 255px;
+            left: 350px;
+        
+            color: black;
+        }
+    /* Block 5 Close */
+
+    /* Social Media */
+        #socialMedia{
+            margin: 0px -8px;
+
+            color: aliceblue;
+            background-color: #095F80;
+            box-shadow: 1px 1px 18px 8px black;
+
+            height: 370px;
+            position: relative;
+            top: 1180px;
+        }
+        #strLine{
+            padding: 8px 0px;
+        }
+        #headOfEnd{
+            display: inline;
+        }
+        #smTable{
+            margin: 30px 30px;
+        }
+        /* .smRow{
+            margin: 0px 3px;
+        } */
+        .smData{
+            padding: 5px 10px;
+        }
+        #email{
+            padding: 0px 30px;
+        }
+        #slideTwoSm{
+            padding: 25px;
+
+            position: absolute;
+            left: 800px;
+            
+        }
+        #headOfEndS2{
+            display: inline;
+        }
+        #listOfSm{
+            list-style: none;
+            margin: 25px 0px;
+        }
+        .sm_li{
+            padding: 5px 10px;
+        }
+        #phoneNo{
+            padding: 0px 30px;
+        }
+
+/* Ad  */
+    /* Opening of the Ad  */
+
+        /* Main of Ad */
+            #main1{
+                display: none;
+                justify-content: center;
+                align-items: center;
+                z-index: 1;
+            }
+            .mainAd{
+                background-color: rgb(255, 255, 255);
+                border-radius: 3px;
+                box-shadow: 1px 1px 9px 1px #534949;
+                
+                width: 800px;
+                height: 500px;
+            }
+
+        /* Aside  */
+            .adHead{
+                padding: 17px 20px;
+                margin: 0px;
+            
+                color: rgb(101, 99, 99);
+                background-color: rgb(255, 255, 255);
+                border-radius: 12px;
+                font-size: large;
+                font-style: italic;
+
+            }
+            .headOfAd{
+                display: inline;
+            }
+            #linkOfText{
+                color: rgb(101, 99, 99);
+                text-decoration: none;
+            }
+            #linkOfText:hover{
+                color: rgb(82, 82, 244);
+            }
+            #closeTheAd{
+                margin: 0px -12px;
+
+                background-color: white;
+                border: 1px solid rgb(201 201 199) ;
+                border-radius: 45%;
+
+                position: relative;
+                left: 480px;
+
+            }
+            #closeImg{
+                width: 15px;
+                height: 15px;
+                background: rgb(201 201 199);
+            }
+
+        /* Ad Image  */
+            #mainContent{
+                display: flex;
+                justify-content: center;
+            
+            }
+            #mainImg{
+                margin: 12px 0px;
+                padding: 0px 0px ;
+
+                width: 500px;
+                height: 410px;
+                box-shadow: 8px 8px 13px #534949;
+            }
+
+        /* Condition Text  */
+            #detailText{
+                padding: 9px 5px;
+                margin: 7px 0px;
+            
+                color: rgb(36, 35, 20);
+                background-color: white;
+                border-radius: 3px;
+                font-size: large;
+                font-style: italic;
+            }
+        /* Condition Text Close */
+    /* Closing of the Ad */
+/* Ad CLose */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
